@@ -1,1 +1,2 @@
 # Music-Extraction
+In this project we are separating vocals and instrument from a mixed audio file. To get the separated files, we first get the spectrograph of the whole audio, then we use processes like filtering, source separation, noise reduction and audio compression on the input audio to get two separate files. All this process is done using python code in a compiler with the help of various installed libraries like “librosa”, “numpy”, “noisereduce” and others.
